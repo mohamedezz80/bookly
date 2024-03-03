@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-
+import 'constant.dart';
 import 'features/splash/presentation/views/splash_view.dart';
 
 void main() {
@@ -12,10 +12,12 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const GetMaterialApp(
-      title: 'Flutter Demo',
+    return  GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SplashView(),
+      home: const SplashView(),
+      theme: ThemeData().copyWith(
+        scaffoldBackgroundColor: kPrimaryColor,
+      ),
     );
   }
 }
