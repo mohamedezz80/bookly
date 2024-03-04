@@ -14,6 +14,7 @@ class CustomAppBar extends StatelessWidget {
         top: 40,
         bottom: 20,
         right: 30,
+        left: 20,
       ),
       child: Row(
         children: [
