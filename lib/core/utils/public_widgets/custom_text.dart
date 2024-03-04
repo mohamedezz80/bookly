@@ -10,6 +10,7 @@ class CustomText extends StatelessWidget {
     this.textAlign,
     this.maxLines,
     this.fontFamily,
+    this.letterSpacing,
     super.key,
   });
 
@@ -20,6 +21,7 @@ class CustomText extends StatelessWidget {
   final TextAlign? textAlign;
   final int? maxLines;
   final String? fontFamily;
+  final double? letterSpacing;
   @override
   Widget build(BuildContext context) {
     return  Text(
@@ -32,6 +34,7 @@ class CustomText extends StatelessWidget {
         fontWeight: fontWeight,
         color: colorText,
         fontFamily: fontFamily,
+       letterSpacing: letterSpacing,
        height: 1.12,
       ),
     );
