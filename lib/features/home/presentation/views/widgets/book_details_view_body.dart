@@ -1,6 +1,5 @@
 
 import 'package:bookly_app/constant.dart';
-import 'package:bookly_app/core/utils/public_widgets/custom_button.dart';
 import 'package:bookly_app/core/utils/public_widgets/custom_text.dart';
 import 'package:bookly_app/features/home/presentation/views/widgets/book_rating.dart';
 import 'package:bookly_app/features/home/presentation/views/widgets/custom_book_details_appbar.dart';
