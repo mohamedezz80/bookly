@@ -1,6 +1,6 @@
 
 import 'package:flutter/cupertino.dart';
-import 'best_seller_listview_item.dart';
+import 'book_listview_item.dart';
 
 class BestSellerListView extends StatelessWidget {
   const BestSellerListView({super.key});
@@ -19,7 +19,7 @@ class BestSellerListView extends StatelessWidget {
               right: 30,
               left: 20,
             ),
-            child: BestSellerListViewItem(),
+            child: BookListViewItem(),
           );
         },
     );
