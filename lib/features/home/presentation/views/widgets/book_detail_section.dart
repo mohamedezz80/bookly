@@ -23,7 +23,9 @@ class BookDetailsSection extends StatelessWidget {
             horizontal: width * 0.2,
             vertical: 5,
           ),
-          child: const CustomBookImage(),
+          child: const CustomBookImage(
+            imageUrl: 'https://th.bing.com/th/id/R.70fe875f463f2ead03b599c5cbaaac5d?rik=e6DE9GxHERHQIA&pid=ImgRaw&r=0',
+          ),
         ),
         const SizedBox(height: 43),
         const CustomText(
